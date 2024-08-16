@@ -5,15 +5,11 @@
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
   gap: 40px;
-  padding: 0px 20px;
 }
 .introducao-conteudo {
   align-self: end;
-  margin-bottom: 110px;
-  padding-bottom: 120px;
+  margin-bottom: 180px;
 }
 
 .introducao img {
@@ -50,10 +46,10 @@
     margin-bottom: 16px;
   }
   .introducao img {
-    height: 300px;
+    height: 400px;
     width: 100%;
   }
   .introducao-bg {
-    box-shadow: inset 0px -60px 0 var(--c12);
+    box-shadow: inset 0px -120px 0 var(--c0);
   }
 }

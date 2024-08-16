@@ -7,10 +7,7 @@
   gap: 30px;
   justify-content: space-between;
   padding: 20px;
-  box-sizing: border-box;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 .header-menu {
   display: flex;
