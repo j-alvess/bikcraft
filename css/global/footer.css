@@ -1,5 +1,7 @@
 .footer-bg {
   background-color: var(--c12);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .footer {
   display: grid;
@@ -42,7 +44,7 @@
     display: none;
   }
   .footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 600px) {
