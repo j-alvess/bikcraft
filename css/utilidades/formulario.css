@@ -5,15 +5,20 @@
 }
 .form label {
   display: block;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 4px;
+}
+.form select {
+  display: grid;
+  align-self: end;
 }
 .form .col-2 {
   grid-column: span 2;
 }
 .form input[type="text"],
 .form input[type="email"],
-.form textarea {
+.form textarea,
+.form select {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--c1);
   padding: 12px;
